@@ -1,0 +1,198 @@
+[10-Jun-2024 15:17:26 UTC] PHP Warning:  Undefined property: WP_Ajax_Upgrader_Skin::$api in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-admin\includes\class-theme-upgrader.php on line 160
+[10-Jun-2024 15:17:30 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[10-Jun-2024 16:56:44 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[10-Jun-2024 16:58:02 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[10-Jun-2024 18:59:21 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[10-Jun-2024 19:41:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WPP\Inc\wc_get_products() in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\popular-products-block\inc\block.php:31
+Stack trace:
+#0 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-block.php(463): WPP\Inc\WPPBlock->render(Array, '', Object(WP_Block))
+#1 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\blocks.php(1705): WP_Block->render()
+#2 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\endpoints\class-wp-rest-block-renderer-controller.php(190): render_block(Array)
+#3 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WP_REST_Block_Renderer_Controller->get_item(Object(WP_REST_Request))
+#4 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/block-re...', Array, NULL)
+#5 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api.php(428): WP_REST_Server->serve_request('/wp/v2/block-re...')
+#7 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\functions.php(1336): WP->main('')
+#13 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-blog-header.php(16): wp()
+#14 C:\Users\Karl\Local Sites\lethal-doom\app\public\index.php(17): require('C:\\Users\\Karl\\L...')
+#15 {main}
+  thrown in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\popular-products-block\inc\block.php on line 31
+[10-Jun-2024 19:41:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WPP\Inc\wc_get_products() in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\popular-products-block\inc\block.php:31
+Stack trace:
+#0 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-block.php(463): WPP\Inc\WPPBlock->render(Array, '', Object(WP_Block))
+#1 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\blocks.php(1705): WP_Block->render()
+#2 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\endpoints\class-wp-rest-block-renderer-controller.php(190): render_block(Array)
+#3 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WP_REST_Block_Renderer_Controller->get_item(Object(WP_REST_Request))
+#4 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/block-re...', Array, NULL)
+#5 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api.php(428): WP_REST_Server->serve_request('/wp/v2/block-re...')
+#7 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\functions.php(1336): WP->main('')
+#13 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-blog-header.php(16): wp()
+#14 C:\Users\Karl\Local Sites\lethal-doom\app\public\index.php(17): require('C:\\Users\\Karl\\L...')
+#15 {main}
+  thrown in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\popular-products-block\inc\block.php on line 31
+[10-Jun-2024 19:41:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WPP\Inc\wc_get_products() in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\popular-products-block\inc\block.php:31
+Stack trace:
+#0 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-block.php(463): WPP\Inc\WPPBlock->render(Array, '', Object(WP_Block))
+#1 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\blocks.php(1705): WP_Block->render()
+#2 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\endpoints\class-wp-rest-block-renderer-controller.php(190): render_block(Array)
+#3 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WP_REST_Block_Renderer_Controller->get_item(Object(WP_REST_Request))
+#4 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/block-re...', Array, NULL)
+#5 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api.php(428): WP_REST_Server->serve_request('/wp/v2/block-re...')
+#7 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\functions.php(1336): WP->main('')
+#13 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-blog-header.php(16): wp()
+#14 C:\Users\Karl\Local Sites\lethal-doom\app\public\index.php(17): require('C:\\Users\\Karl\\L...')
+#15 {main}
+  thrown in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\popular-products-block\inc\block.php on line 31
+[10-Jun-2024 19:41:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WPP\Inc\wc_get_products() in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\popular-products-block\inc\block.php:31
+Stack trace:
+#0 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-block.php(463): WPP\Inc\WPPBlock->render(Array, '', Object(WP_Block))
+#1 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\blocks.php(1705): WP_Block->render()
+#2 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\blocks.php(1743): render_block(Array)
+#3 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-hook.php(324): do_blocks('<!-- wp:wpp/pop...')
+#4 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<!-- wp:wpp/pop...', Array)
+#5 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\endpoints\class-wp-rest-revisions-controller.php(632): apply_filters('the_content', '<!-- wp:wpp/pop...')
+#6 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(451): WP_REST_Revisions_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#7 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(253): WP_REST_Autosaves_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#8 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#9 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#10 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api.php(428): WP_REST_Server->serve_request('/wp/v2/pages/91...')
+#12 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#13 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#14 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#15 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#16 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#17 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\functions.php(1336): WP->main('')
+#18 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-blog-header.php(16): wp()
+#19 C:\Users\Karl\Local Sites\lethal-doom\app\public\index.php(17): require('C:\\Users\\Karl\\L...')
+#20 {main}
+  thrown in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\popular-products-block\inc\block.php on line 31
+[10-Jun-2024 19:42:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WPP\Inc\wc_get_products() in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\popular-products-block\inc\block.php:31
+Stack trace:
+#0 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-block.php(463): WPP\Inc\WPPBlock->render(Array, '', Object(WP_Block))
+#1 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\blocks.php(1705): WP_Block->render()
+#2 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\blocks.php(1743): render_block(Array)
+#3 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-hook.php(324): do_blocks('<!-- wp:wpp/pop...')
+#4 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<!-- wp:wpp/pop...', Array)
+#5 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\endpoints\class-wp-rest-revisions-controller.php(632): apply_filters('the_content', '<!-- wp:wpp/pop...')
+#6 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(451): WP_REST_Revisions_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#7 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\endpoints\class-wp-rest-autosaves-controller.php(253): WP_REST_Autosaves_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#8 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#9 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#10 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api.php(428): WP_REST_Server->serve_request('/wp/v2/pages/91...')
+#12 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#13 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#14 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#15 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#16 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#17 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\functions.php(1336): WP->main('')
+#18 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-blog-header.php(16): wp()
+#19 C:\Users\Karl\Local Sites\lethal-doom\app\public\index.php(17): require('C:\\Users\\Karl\\L...')
+#20 {main}
+  thrown in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\popular-products-block\inc\block.php on line 31
+[10-Jun-2024 19:49:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WPP\Inc\wc_get_products() in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\popular-products-block\inc\block.php:31
+Stack trace:
+#0 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-block.php(463): WPP\Inc\WPPBlock->render(Array, '', Object(WP_Block))
+#1 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\blocks.php(1705): WP_Block->render()
+#2 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\endpoints\class-wp-rest-block-renderer-controller.php(190): render_block(Array)
+#3 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WP_REST_Block_Renderer_Controller->get_item(Object(WP_REST_Request))
+#4 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/block-re...', Array, NULL)
+#5 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api.php(428): WP_REST_Server->serve_request('/wp/v2/block-re...')
+#7 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\functions.php(1336): WP->main('')
+#13 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-blog-header.php(16): wp()
+#14 C:\Users\Karl\Local Sites\lethal-doom\app\public\index.php(17): require('C:\\Users\\Karl\\L...')
+#15 {main}
+  thrown in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\popular-products-block\inc\block.php on line 31
+[10-Jun-2024 19:50:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WPP\Inc\wc_get_products() in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\popular-products-block\inc\block.php:31
+Stack trace:
+#0 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-block.php(463): WPP\Inc\WPPBlock->render(Array, '', Object(WP_Block))
+#1 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\blocks.php(1705): WP_Block->render()
+#2 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\endpoints\class-wp-rest-block-renderer-controller.php(190): render_block(Array)
+#3 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WP_REST_Block_Renderer_Controller->get_item(Object(WP_REST_Request))
+#4 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/block-re...', Array, NULL)
+#5 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api.php(428): WP_REST_Server->serve_request('/wp/v2/block-re...')
+#7 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\functions.php(1336): WP->main('')
+#13 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-blog-header.php(16): wp()
+#14 C:\Users\Karl\Local Sites\lethal-doom\app\public\index.php(17): require('C:\\Users\\Karl\\L...')
+#15 {main}
+  thrown in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\popular-products-block\inc\block.php on line 31
+[10-Jun-2024 19:50:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WPP\Inc\wc_get_products() in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\popular-products-block\inc\block.php:31
+Stack trace:
+#0 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-block.php(463): WPP\Inc\WPPBlock->render(Array, '', Object(WP_Block))
+#1 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\blocks.php(1705): WP_Block->render()
+#2 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\endpoints\class-wp-rest-block-renderer-controller.php(190): render_block(Array)
+#3 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WP_REST_Block_Renderer_Controller->get_item(Object(WP_REST_Request))
+#4 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/block-re...', Array, NULL)
+#5 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\rest-api.php(428): WP_REST_Server->serve_request('/wp/v2/block-re...')
+#7 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#8 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#10 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#11 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#12 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-includes\functions.php(1336): WP->main('')
+#13 C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-blog-header.php(16): wp()
+#14 C:\Users\Karl\Local Sites\lethal-doom\app\public\index.php(17): require('C:\\Users\\Karl\\L...')
+#15 {main}
+  thrown in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\popular-products-block\inc\block.php on line 31
+[10-Jun-2024 19:56:20 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 289
+[10-Jun-2024 19:56:20 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 114
+[10-Jun-2024 19:56:20 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 311
+[10-Jun-2024 19:56:20 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 289
+[10-Jun-2024 19:56:20 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 114
+[10-Jun-2024 19:56:20 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 311
+[10-Jun-2024 19:56:23 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 289
+[10-Jun-2024 19:56:23 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 114
+[10-Jun-2024 19:56:23 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 311
+[10-Jun-2024 19:56:23 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 289
+[10-Jun-2024 19:56:23 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 114
+[10-Jun-2024 19:56:23 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 311
+[10-Jun-2024 19:56:43 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 289
+[10-Jun-2024 19:56:43 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 114
+[10-Jun-2024 19:56:43 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 311
+[10-Jun-2024 19:56:43 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 289
+[10-Jun-2024 19:56:43 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 114
+[10-Jun-2024 19:56:43 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 311
+[10-Jun-2024 19:57:03 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 289
+[10-Jun-2024 19:57:03 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 114
+[10-Jun-2024 19:57:03 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 311
+[10-Jun-2024 19:57:03 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 289
+[10-Jun-2024 19:57:03 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 114
+[10-Jun-2024 19:57:03 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 311
+[10-Jun-2024 19:57:04 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 289
+[10-Jun-2024 19:57:04 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 114
+[10-Jun-2024 19:57:04 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 311
+[10-Jun-2024 19:57:04 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 289
+[10-Jun-2024 19:57:04 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 114
+[10-Jun-2024 19:57:04 UTC] PHP Warning:  Undefined array key "queryId" in C:\Users\Karl\Local Sites\lethal-doom\app\public\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\ProductCollection.php on line 311
+[10-Jun-2024 20:25:14 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
